@@ -43,5 +43,6 @@
   },
   "devDependencies": {
     "tailwindcss": "^3.4.1"
-  }
+  },
+  "proxy": "https://gmh-mobile-house-backend.vercel.app/"
 }
