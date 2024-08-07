@@ -1,4 +1,4 @@
-const backendDomin = "https://gmh-mobile-house-backend.vercel.app/";
+const backendDomin = "https://gmh-mobile-house-backend.vercel.app";
 
 const SummaryApi = {
   signUP: {
