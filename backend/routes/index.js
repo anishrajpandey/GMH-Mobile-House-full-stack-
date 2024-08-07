@@ -30,6 +30,9 @@ router.post("/signin", userSignInController);
 router.post("/user-details", userDetailsController);
 router.get("/userLogout", userLogout);
 
+router.get("/", (req, res) => {
+  res.json({ message: "Running successfully" });
+});
 //admin panel
 router.get("/all-user", allUsers);
 router.post("/update-user", updateUser);
